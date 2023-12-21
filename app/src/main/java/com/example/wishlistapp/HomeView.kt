@@ -12,9 +12,11 @@ fun HomeView() {
     Scaffold(
         topBar = { AppBarView(title = "WishList") }
     ) {
-        LazyColumn(modifier = Modifier
-            .fillMaxSize()
-            .padding(it)) {
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(it)
+        ) {
 
         }
     }
