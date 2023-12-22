@@ -28,7 +28,7 @@ fun HomeView() {
             FloatingActionButton(
                 modifier = Modifier.padding(all = 20.dp),
                 contentColor = Color.White,
-                backgroundColor = Color.Black,
+                backgroundColor = Color.Gray,
                 onClick = { /*TODO*/ }) {
                 Icon(imageVector = Icons.Default.Add, contentDescription = null)
             }
