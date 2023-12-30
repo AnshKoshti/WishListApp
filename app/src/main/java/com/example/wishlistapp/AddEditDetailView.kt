@@ -98,7 +98,7 @@ fun AddEditDetailView(
                     snackMessage.value = "Enter the desire wish..."
                 }
                 scope.launch {
-                    scaffoldState.snackbarHostState.showSnackbar(snackMessage.value)
+                    //scaffoldState.snackbarHostState.showSnackbar(snackMessage.value)
                     navController.navigateUp()
                 }
             }) {
